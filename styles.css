@@ -1,0 +1,144 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: black;
+    height: 560px;
+    width: 300px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 35px;
+    padding-bottom: 10px;
+}
+
+.noti-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.time {
+    color: white;
+    margin-right: 30px;
+    margin-left: 10px;
+}
+
+.notch{
+    width: 40%;
+    height: 20px;
+    border-radius: 50px;
+    background-color: #f1f1f110;
+    margin-right: 20px;
+}
+
+.noti-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: -10px;
+}
+
+.noti-image{
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    width: 40px;
+    margin-left: -15px;  
+}
+
+.screen{
+    width: 90%;
+    height: 30%;
+    background-color: black;
+    margin: auto;
+}
+
+#equation{
+    position: relative;
+    top: 80;
+    left: 0;
+    font-size: 64px;
+    color: white;
+    text-align: right;
+}
+
+.button-container{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.brow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: center;
+}
+
+.brow div{
+    transition: background-color 0.2s ease;
+}
+
+.brow div:hover{
+    cursor: pointer;
+}
+
+.brow div:onclick{
+    background: #f1f1f17e;
+
+}
+
+.button{
+    border-radius: 200px;
+    font-size: 30px;
+    width: 60px;
+    height: 50px;
+    text-align: center;
+    margin: 5px;
+    overflow: hidden;
+}
+
+.button-large{
+    border-radius: 200px;
+    font-size: 30px;
+    width: 130px;
+    height: 50px;
+    margin: 5px;
+    text-align: center;
+    overflow: hidden;   
+
+}
+
+.light-grey{
+    background-color: darkgray;
+    color: black;
+}
+
+.yellow{
+    background-color: orange;
+    color: white;
+}
+
+.dark-grey{
+    background-color: rgb(48, 47, 47);
+    color: white;
+}
+
+.bottom-notch{
+    position: relative;
+    background-color: white;
+    height: 5px;
+    width: 40%;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 100px;
+
+}
